@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] x) {
         System.out.println("Nilai static variable : " + Perhitungan.nilai);
 
-        for (int i=0; i<5; i++) {
+        for (int i=0; i<6; i++) {
             new Perhitungan();
         }
 
