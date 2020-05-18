@@ -1,4 +1,4 @@
-package com.dicoding.javafundamental.accessmodifier;
+package com.dicoding.javafundamental.accessmodifier.package1;
 
 public class KelasA {
 
@@ -13,5 +13,9 @@ public class KelasA {
     int functionB() {
         int hasil = functionA() + memberA;
         return hasil;
+    }
+
+    protected void methodC() {
+        System.out.println("Test access modifier..");
     }
 }
