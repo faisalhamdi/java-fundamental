@@ -18,11 +18,15 @@ public class ListPlanet {
         planets.add("venus");
         planets.add("earth");
         planets.add("mars");
+        planets.add("mars");
 
         System.out.println("List planet awal :");
         for (int i=0; i<planets.size(); i++) { // method size() untuk mendapatkan ukuran List
             System.out.println("\t index-"+ i +" = " + planets.get(i)); // method get() untuk melihat isi List pada index i
         }
+//        for (String planet : planets) {
+//            System.out.println("\t " + planet);
+//        }
 
         planets.remove("venus"); // method remove() untuk mengeluarkan objek dari List
 
